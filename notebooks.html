@@ -26,48 +26,43 @@
         </ul>
     </div>
 
-   
     <div class="container mt-4">
 
         <h2 class="mb-4">My Notebooks</h2>
 
         <div class="row g-4">
 
-           
             <div class="col-md-4">
-                <div class="card text-dark h-100" onclick="openNotebook('Math')" style="cursor:pointer;">
+                <div id="mathCard" class="card text-dark h-100" onclick="openNotebook('Math')">
                     <div class="card-body text-center">
-                        <h4> Math</h4>
-                        <p>Math Notes!! </p>
+                        <h4>Math</h4>
+                        <p>Math Notes!!</p>
                     </div>
                 </div>
             </div>
 
-         
             <div class="col-md-4">
-                <div class="card text-dark h-100" onclick="openNotebook('ICT')" style="cursor:pointer;">
+                <div id="ictCard" class="card text-dark h-100" onclick="openNotebook('ICT')">
                     <div class="card-body text-center">
-                        <h4> ICT</h4>
-                        <p>Ict Notes!!</p>
+                        <h4>ICT</h4>
+                        <p>ICT Notes!!</p>
                     </div>
                 </div>
             </div>
 
-
-                <div class="col-md-4">
-                <div class="card text-dark h-100" onclick="openNotebook('ICT')" style="cursor:pointer;">
+            <div class="col-md-4">
+                <div id="scienceCard" class="card text-dark h-100" onclick="openNotebook('Science')">
                     <div class="card-body text-center">
-                        <h4> Science</h4>
-                        <p> Science Note!!</p>
+                        <h4>Science</h4>
+                        <p>Science Notes!!</p>
                     </div>
                 </div>
             </div>
 
-           
             <div class="col-md-4">
-                <div class="card text-dark h-100" onclick="openNotebook('Science')" style="cursor:pointer;">
+                <div id="moreClassesCard" class="card text-dark h-100" onclick="openNotebook('More')">
                     <div class="card-body text-center">
-                        <h4> More classes</h4>
+                        <h4>More Classes</h4>
                         <p>Open for more classes!!</p>
                     </div>
                 </div>
@@ -86,7 +81,7 @@ function logout() {
 }
 
 function openNotebook(subject) {
-    alert("Error" + subject + " 505");
+    alert("Error " + subject + " 505");
 }
 </script>
 
